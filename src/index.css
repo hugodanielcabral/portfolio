@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.dark {
+  background: hsla(205, 46%, 10%, 1);
+
+  background: linear-gradient(
+    0deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 45%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 45%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 45%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0e1c26", endColorstr="#2a454b", GradientType=1 );
+}
+
+.light {
+  background: hsla(283, 83%, 86%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(283, 83%, 86%, 1) 0%,
+    hsla(105, 11%, 85%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(283, 83%, 86%, 1) 0%,
+    hsla(105, 11%, 85%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(283, 83%, 86%, 1) 0%,
+    hsla(105, 11%, 85%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E8BDF9", endColorstr="#D8DED6", GradientType=1 );
+}
