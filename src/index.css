@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -12,30 +12,7 @@ body {
 }
 
 .dark {
-  background: hsla(205, 46%, 10%, 1);
-
-  background: linear-gradient(
-    0deg,
-    hsla(205, 46%, 10%, 1) 0%,
-    hsla(191, 28%, 23%, 1) 45%,
-    hsla(207, 41%, 27%, 1) 100%
-  );
-
-  background: -moz-linear-gradient(
-    0deg,
-    hsla(205, 46%, 10%, 1) 0%,
-    hsla(191, 28%, 23%, 1) 45%,
-    hsla(207, 41%, 27%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    0deg,
-    hsla(205, 46%, 10%, 1) 0%,
-    hsla(191, 28%, 23%, 1) 45%,
-    hsla(207, 41%, 27%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0e1c26", endColorstr="#2a454b", GradientType=1 );
+ background-color: #0E1F39;
 }
 
 .light {
