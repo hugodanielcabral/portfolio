@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import sunIcon from "../../images/sun.svg";
+import moonIcon from "../../images/moon.svg";
 
 export const Header = () => {
   const [theme, setTheme] = useState(() => {
@@ -30,8 +32,12 @@ export const Header = () => {
             <label className="text-3xl swap swap-flip">
               <input type="checkbox" onClick={handleChangeTheme} />
 
-              <div className="swap-on">🌑</div>
-              <div className="swap-off">🌞</div>
+              <div className="swap-on">
+                <img src={moonIcon} alt="Moon Icon" className="w-9 h-9" />
+              </div>
+              <div className="swap-off">
+                <img src={sunIcon} alt="Sun Icon" />
+              </div>
             </label>
             <div className="flex-none text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
               <ul className="hidden px-1 menu menu-horizontal lg:flex">
