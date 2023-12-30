@@ -5,7 +5,7 @@ import emailIcon from "../../images/email.svg";
 export const Aside = () => {
   return (
     <div className="sticky top-0">
-      <aside className="absolute hidden h-96 lg:top-72 lg:flex lg:bottom-0 lg:flex-col lg:ml-9 lg:gap-y-2">
+      <aside className="absolute hidden h-96 md:top-96 md:flex md:bottom-0 md:flex-col md:ml-9 md:gap-y-2">
         <a href="https://github.com/Teseo11" target="_blank" rel="noreferrer">
           <img
             className="w-8 rounded-full"

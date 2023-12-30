@@ -1,6 +1,6 @@
 export const MainHome = () => {
   return (
-    <section className="justify-center w-3/4 mt-10">
+    <section id="home" className="justify-center w-3/4 mt-10 lg:p-20">
       <h3 className="text-lg lg:text-2xl text-[#FF31AD]">Hello!, my name is</h3>
       <h1 className="my-3 text-4xl lg:text-6xl text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
         Daniel Cabral.

@@ -25,7 +25,7 @@ export const Header = () => {
     }
   }, [theme]);
   return (
-    <header className="sticky top-0 dark:bg-[rgb(14,31,57)] backdrop-blur-md">
+    <header className="sticky top-0 dark:bg-[rgb(14,31,57)] bg-slate-300 bg-opacity-50 backdrop-blur-md dark:bg-opacity-45">
       <nav>
         <div className="navbar">
           <div className="justify-around flex-1">
@@ -40,37 +40,40 @@ export const Header = () => {
               </div>
             </label>
             <div className="flex-none text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
-              <ul className="hidden px-1 menu menu-horizontal lg:flex">
+              <ul className="hidden px-1 menu menu-horizontal lg:flex md:flex">
                 <li>
-                  <a href="#">HOME</a>
+                  <a href="#home">HOME</a>
                 </li>
                 <li>
-                  <a href="#">PROJECTS</a>
+                  <a href="#projects">PROJECTS</a>
                 </li>
                 <li>
-                  <a href="#">ABOUT</a>
+                  <a href="#about">ABOUT</a>
                 </li>
                 <li>
-                  <a href="#">CONTACT</a>
+                  <a href="#contact">CONTACT</a>
                 </li>
               </ul>
 
               <details className="dropdown md:hidden dropdown-end">
-                <summary className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-cyan-900 dark:hover:dark:bg-cyan-800 hover:bg-gray-200">
+                <summary
+                  className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-cyan-900
+                dark:bg-opacity-60 dark:hover:dark:bg-cyan-800 hover:bg-gray-200"
+                >
                   Menu
                 </summary>
                 <ul className="p-2 shadow menu dropdown-content z-[1] dark:bg-cyan-900 rounded-box w-52 bg-gray-300">
                   <li>
-                    <a href="#">HOME</a>
+                    <a href="#home">HOME</a>
                   </li>
                   <li>
-                    <a href="#">PROJECTS</a>
+                    <a href="#projects">PROJECTS</a>
                   </li>
                   <li>
-                    <a href="#">ABOUT</a>
+                    <a href="#about">ABOUT</a>
                   </li>
                   <li>
-                    <a href="#">CONTACT</a>
+                    <a href="#contact">CONTACT</a>
                   </li>
                 </ul>
               </details>
