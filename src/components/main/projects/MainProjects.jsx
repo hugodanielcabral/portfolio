@@ -72,7 +72,7 @@ export const MainProjects = () => {
         <article className="grid mt-5 lg:grid-cols-2 gap-x-4">
           <img
             src={dog360_image}
-            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black hover:scale-105"
+            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black"
             alt="Image of my project DonC"
           />
           <div>

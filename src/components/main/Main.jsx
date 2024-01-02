@@ -1,3 +1,4 @@
+import { MainContact } from "../contact/MainContact";
 import { MainAbout } from "./about/MainAbout";
 import { MainHome } from "./home/MainHome";
 import { MainProjects } from "./projects/MainProjects";
@@ -8,12 +9,7 @@ export const Main = () => {
       <MainHome />
       <MainAbout />
       <MainProjects />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <MainContact />
     </main>
   );
 };

@@ -9,13 +9,23 @@ export const MainAbout = () => {
           About me
         </h3>
         <p className="text-2xl text-[#313234] mt-5 dark:text-[#B0B5BC]">
-          Hello!, my name is
-          <span className="text-[#FF31AD] font-bold"> Daniel Cabral</span>,
-          I&apos;m a passionate Frontend Developer wanting to learn more about
-          the world of programming and web development. I just finished my
-          studies at Universidad Tecnológica Nacional (UTN) and I&apos;m looking
-          for a job to start my career as a developer.
+          I am a passionate Frontend Developer, for two years I have been
+          studying and working on my own projects, since then I learned:
         </p>
+        <ul className="list-disc list-inside grid grid-cols-2 text-2xl text-[#313234] mt-5 dark:text-[#B0B5BC] mb-5">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Scrum</li>
+          <li>TailwindCSS</li>
+          <li>Bootstrap</li>
+          <li>SQL(MySQL and PostgreSQL)</li>
+        </ul>
       </div>
       <div className="flex justify-center">
         <img className="h-96" src={avatar} alt="Daniel's Avatar" />
