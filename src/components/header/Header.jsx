@@ -25,7 +25,7 @@ export const Header = () => {
     }
   }, [theme]);
   return (
-    <header className="sticky top-0 dark:bg-[rgb(14,31,57)] bg-slate-300 bg-opacity-50 backdrop-blur-md dark:bg-opacity-45">
+    <header className="sticky top-0 dark:bg-[rgb(14,31,57)]  bg-slate-300 bg-opacity-50 backdrop-blur-md dark:bg-opacity-45">
       <nav>
         <div className="navbar">
           <div className="justify-around flex-1">
@@ -56,13 +56,10 @@ export const Header = () => {
               </ul>
 
               <details className="dropdown md:hidden dropdown-end">
-                <summary
-                  className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-cyan-900
-                dark:bg-opacity-60 dark:hover:dark:bg-cyan-800 hover:bg-gray-200"
-                >
+                <summary className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-black dark:bg-opacity-10 dark:hover:bg-transparent hover:bg-transparent bg-opacity-65">
                   Menu
                 </summary>
-                <ul className="p-2 shadow menu dropdown-content z-[1] dark:bg-cyan-900 rounded-box w-52 bg-gray-300">
+                <ul className="p-2 shadow menu dropdown-content z-[1] rounded-box w-52 dark:bg-black dark:bg-opacity-35 bg-white bg-opacity-85">
                   <li>
                     <a href="#home">HOME</a>
                   </li>

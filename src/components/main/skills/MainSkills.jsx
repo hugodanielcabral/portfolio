@@ -9,11 +9,11 @@ export const MainSkills = () => {
         <p className="text-3xl font-bold text-[#313234] mt-5 dark:text-[#B0B5BC]">
           Frontend
         </p>
-        <ul className="list-disc list-inside grid grid-cols-2 text-2xl text-[#313234] mt-5 dark:text-[#B0B5BC] mb-5">
+        <ul className="list-disc list-inside grid grid-cols-2 text-2xl text-[#313234] mt-5 dark:text-[#B0B5BC] mb-5 md:gap-x-0 gap-x-3">
           <li>HTML</li>
           <li>CSS</li>
-          <li>JavaScript</li>
           <li>React</li>
+          <li>JavaScript</li>
           <li>TailwindCSS</li>
           <li>Bootstrap</li>
         </ul>
