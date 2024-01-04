@@ -45,7 +45,7 @@ export const Header = () => {
                   <a href="#home">HOME</a>
                 </li>
                 <li>
-                  <a href="#about">ABOUT</a>
+                  <a href="#skills">SKILLS</a>
                 </li>
                 <li>
                   <a href="#projects">PROJECTS</a>
@@ -67,7 +67,7 @@ export const Header = () => {
                     <a href="#home">HOME</a>
                   </li>
                   <li>
-                    <a href="#about">ABOUT</a>
+                    <a href="#skills">SKILLS</a>
                   </li>
                   <li>
                     <a href="#projects">PROJECTS</a>

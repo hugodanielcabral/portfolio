@@ -9,7 +9,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 export const MainProjects = () => {
   return (
     <section id="projects" className="justify-center w-3/4 mt-20">
-      <div className="w-2/4 divider divider-secondary"></div>
+      <div className=" divider divider-secondary"></div>
       <h3 className="text-2xl text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
         Projects
       </h3>
@@ -20,7 +20,7 @@ export const MainProjects = () => {
         <article className="grid lg:grid-cols-2 gap-x-4">
           <img
             src={donc_image}
-            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black hover:scale-105"
+            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black"
             alt="Image of my project DonC"
           />
           <div>
@@ -28,8 +28,8 @@ export const MainProjects = () => {
               DonC Alojamientos
             </h4>
             <p className="text-xl text-[#0E1F39] dark:text-[#B0B5BC]">
-              DonC Alojamientos is a project made for my University. In this
-              website you can book houses or publish your own.
+              I designed a website where you can book different types of houses
+              and even publish your own.
             </p>
             <ul className="flex items-center justify-center mt-3 gap-x-5 lg:justify-start">
               <li>
@@ -80,9 +80,8 @@ export const MainProjects = () => {
               Dog360
             </h4>
             <p className="text-xl text-[#0E1F39] dark:text-[#B0B5BC]">
-              Dog360 is another project made for my University. In this one you
-              can find information about dogs, like their breed, their size,
-              their weight, etc.
+              I worked on a website where you will find information about dogs,
+              such as breed, size, weight, etc.
             </p>
             <ul className="flex items-center justify-center mt-3 gap-x-5 lg:justify-start">
               <li>
@@ -99,12 +98,6 @@ export const MainProjects = () => {
               </li>
             </ul>
             <div className="flex justify-center gap-x-2 lg:justify-start">
-              <button className="text-xl btn btn-primary" disabled>
-                <a href="#" target="_blank" rel="noreferrer">
-                  Live
-                </a>
-                <FaLink />
-              </button>
               <button className="text-xl btn btn-warning">
                 <a
                   href="https://github.com/Teseo11/dog360"
@@ -125,7 +118,7 @@ export const MainProjects = () => {
                 Dawson E-Commerce
               </h4>
               <p className="text-base text-[#0E1F39] dark:text-[#B0B5BC]">
-                An E-Commerce where you can buy clothes, shoes, etc.
+                I developed an E-Commerce following the SCRUM methodology.
               </p>
               <ul className="flex items-center justify-center mt-3 gap-x-5">
                 <li>

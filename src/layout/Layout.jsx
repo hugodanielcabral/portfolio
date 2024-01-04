@@ -6,7 +6,7 @@ import { Main } from "../components/main/Main";
     <div className="relative flex flex-col">
       <Header />
       {/*       <Aside />
-       */}{" "}
+       */}
       <Main />
     </div>
   );

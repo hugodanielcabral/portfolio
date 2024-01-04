@@ -6,12 +6,14 @@ export const MainHome = () => {
         Daniel Cabral.
       </h1>
       <h2 className="text-xl sm:text-xl lg:text-4xl dark:text-[#B0B5BC] text-[#313234]">
-        I&apos;m a Frontend Developer, who just finished his studies at the
-        University (UTN) and is looking for his first job.
+        I&apos;m a Frontend Developer. A strong communicator and collaborator.
+        Resourceful and determined to solve problems.
       </h2>
       <article className="flex mt-3 gap-x-5">
         <button className="btn btn-outline border-[#FF31AD] text-[#FF31AD]">
-          Resume
+          <a href="/resume_daniel_cabral_en.pdf" download>
+            Resume
+          </a>
         </button>
         <button className="btn btn-outline border-[#FF31AD] text-[#FF31AD]">
           <a href="#contact">Contact</a>
