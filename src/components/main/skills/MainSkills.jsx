@@ -15,7 +15,6 @@ export const MainSkills = () => {
           <li>React</li>
           <li>JavaScript</li>
           <li>TailwindCSS</li>
-          <li>Bootstrap</li>
         </ul>
         <p className="text-3xl font-bold text-[#313234] mt-5 dark:text-[#B0B5BC]">
           Backend
