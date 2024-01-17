@@ -28,7 +28,7 @@ export const MainSkills = () => {
         <p className="text-3xl font-bold text-[#313234] mt-5 dark:text-[#B0B5BC]">
           Others
         </p>
-        <ul className="list-disc list-inside grid grid-cols-2 text-2xl text-[#313234] mt-5 dark:text-[#B0B5BC] mb-5">
+        <ul className="list-disc list-inside grid grid-cols-2 text-2xl text-[#313234] mt-5 dark:text-[#B0B5BC]">
           <li>Git</li>
           <li>GitHub</li>
           <li>Scrum</li>
