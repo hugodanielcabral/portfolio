@@ -59,7 +59,7 @@ export const Header = () => {
                 <summary className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-black dark:bg-opacity-10 dark:hover:bg-transparent hover:bg-transparent bg-opacity-65">
                   Menu
                 </summary>
-                <ul className="p-2 shadow menu dropdown-content z-[1] rounded-box w-52 dark:bg-black dark:bg-opacity-35 bg-white bg-opacity-85">
+                <ul className="p-2 shadow menu dropdown-content z-[1] rounded-box w-52 dark:bg-slate-800 dark:bg-opacity-85 bg-white bg-opacity-85">
                   <li>
                     <a href="#home">HOME</a>
                   </li>
