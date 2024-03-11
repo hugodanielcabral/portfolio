@@ -20,7 +20,7 @@ export const MainProjects = () => {
         <article className="grid lg:grid-cols-2 gap-x-4">
           <img
             src={donc_image}
-            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black"
+            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black hover:scale-105"
             alt="Image of my project DonC"
           />
           <div>
@@ -46,16 +46,15 @@ export const MainProjects = () => {
               </li>
             </ul>
             <div className="flex justify-center gap-x-2 lg:justify-start">
-              <button className="text-xl btn btn-primary">
-                <a
-                  href="https://donc-alojamientos.onrender.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live
-                </a>
+              <a
+                href="https://donc-alojamientos.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl btn btn-primary"
+              >
                 <FaLink />
-              </button>
+                Live
+              </a>
               <button className="text-xl btn btn-warning">
                 <a
                   href="https://github.com/Teseo11/cab_alojamientos"
@@ -72,7 +71,7 @@ export const MainProjects = () => {
         <article className="grid mt-5 lg:grid-cols-2 gap-x-4">
           <img
             src={dog360_image}
-            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black"
+            className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black hover:scale-105"
             alt="Image of my project DonC"
           />
           <div>
