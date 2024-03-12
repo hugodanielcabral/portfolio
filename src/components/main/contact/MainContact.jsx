@@ -4,7 +4,7 @@ import emailIcon from "../../../images/email.svg";
 
 export const MainContact = () => {
   return (
-    <section id="contact" className="grid w-3/4 mt-40 mb-40">
+    <section id="contact" className="grid w-3/4 mb-40">
       <div className="divider divider-secondary"></div>
       <h2 className="text-4xl font-bold text-center text-[#FF31AD] mt-40">
         Contact me
@@ -18,6 +18,7 @@ export const MainContact = () => {
           href="https://github.com/hugodanielcabral"
           target="_blank"
           rel="noreferrer"
+          className="transition-transform duration-300 ease-in-out hover:scale-110"
         >
           <img
             className="w-20 rounded-full"
@@ -29,6 +30,7 @@ export const MainContact = () => {
           href="https://www.linkedin.com/in/hugo-daniel-cabral"
           target="_blank"
           rel="noreferrer"
+          className="transition-transform duration-300 ease-in-out hover:scale-110"
         >
           <img
             className="w-20 rounded-full"
@@ -36,7 +38,10 @@ export const MainContact = () => {
             alt="My LinkedIn Icon"
           />
         </a>
-        <a href="mailto:danicabral151@gmail.com">
+        <a
+          href="mailto:danicabral151@gmail.com"
+          className="transition-transform duration-300 ease-in-out hover:scale-110"
+        >
           <img
             className="w-20 rounded-full"
             src={emailIcon}

@@ -25,7 +25,7 @@ export const MainProjects = () => {
             <img
               src={project.image}
               alt={`Image of ${project.title}`}
-              className="object-cover mt-5 shadow-xl rounded-xl shadow-black"
+              className="object-cover mt-5 shadow-xl rounded-xl shadow-black w-[600px]"
             />
             <div>
               <h4
