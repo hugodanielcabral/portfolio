@@ -98,7 +98,6 @@ export const MainProjects = () => {
         "Tailwind",
         "Jest",
         "Redux",
-        "Firebase",
       ],
       repository: {
         exist: false,
@@ -178,7 +177,7 @@ export const MainProjects = () => {
             <img
               src={project.image}
               alt={`Image of ${project.title}`}
-              className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl h-60 rounded-xl shadow-black max-w-[550px] w-full object-cover"
+              className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl rounded-xl shadow-black max-w-[400px] md:max-w-[600px] object-cover"
             />
             <div>
               <h4

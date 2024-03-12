@@ -16,7 +16,7 @@ export const MainHome = () => {
         emerging technologies and industry trends. Excited to contribute
         technical expertise and innovation to dynamic projects.
       </h2>
-      <article className="flex mt-3 gap-x-5">
+      <article className="flex flex-col justify-center mt-3 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
         <a
           href="/resume_daniel_cabral_en.pdf"
           download
@@ -28,7 +28,7 @@ export const MainHome = () => {
 
         <a
           href="#contact"
-          className="btn bg-[#FF31AD] hover:bg-[#cf4e9b] text-white bg-opacity-75"
+          className="btn bg-[#FF31AD] hover:bg-[#cf4e9b] text-white bg-opacity-75 btn-wide text-lg"
         >
           Contact <MdOutlineMailOutline />
         </a>
