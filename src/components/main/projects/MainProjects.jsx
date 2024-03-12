@@ -171,7 +171,10 @@ export const MainProjects = () => {
       </p>
       <div>
         {MajorProjects.map((project) => (
-          <article key={project.id} className="grid lg:grid-cols-2 gap-x-4">
+          <article
+            key={project.id}
+            className="grid mb-5 lg:grid-cols-2 gap-x-4"
+          >
             <img
               src={project.image}
               alt={`Image of ${project.title}`}
