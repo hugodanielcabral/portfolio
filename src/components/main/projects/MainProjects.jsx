@@ -6,7 +6,6 @@ import { IoNewspaper } from "react-icons/io5";
 export const MainProjects = () => {
   //TODO 2: Arreglar el responsive.
   //TODO 3: Crear tooltips para los botones de live, code, y los iconos de tecnologias.
-  //TODO 4: Optimizar las imagenes de los proyectos.
 
   return (
     <section id="projects" className="justify-center w-3/4 mt-20">
@@ -26,7 +25,7 @@ export const MainProjects = () => {
             <img
               src={project.image}
               alt={`Image of ${project.title}`}
-              className="mt-5 transition duration-300 ease-in-out delay-150 shadow-xl rounded-xl shadow-black max-w-[400px] md:max-w-[600px] object-cover"
+              className="object-cover mt-5 shadow-xl rounded-xl shadow-black"
             />
             <div>
               <h4
