@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import sunIcon from "../../images/sun.svg";
 import moonIcon from "../../images/moon.svg";
+import usaFlag from "../../images/usa-flag.webp";
+import argFlag from "../../images/argentina-flag.webp";
 import { useTranslation } from "react-i18next";
 
 export const Header = () => {
@@ -32,10 +34,10 @@ export const Header = () => {
     }
   }, [theme]);
   return (
-    <header className="sticky top-0 dark:bg-[rgb(14,31,57)]  bg-slate-300 bg-opacity-50 backdrop-blur-md dark:bg-opacity-45">
+    <header className="sticky top-0 dark:bg-[rgb(14,31,57)]  bg-slate-300 bg-opacity-50 backdrop-blur-md dark:bg-opacity-45 z-50">
       <nav>
         <div className="navbar">
-          <div className="justify-around flex-1">
+          <div className="justify-evenly flex-1 items-center">
             <label className="text-3xl swap swap-flip">
               <input type="checkbox" onClick={handleChangeTheme} />
 
@@ -46,6 +48,28 @@ export const Header = () => {
                 <img src={sunIcon} alt="Sun Icon" />
               </div>
             </label>
+            <div className="space-x-5">
+              <button onClick={() => handleChangeLanguage("en")}>
+                <img
+                  src={usaFlag}
+                  alt="United States Flag"
+                  className="rounded-full 
+                 size-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+                  width={44}
+                  height={44}
+                />
+              </button>
+              <button onClick={() => handleChangeLanguage("es")}>
+                <img
+                  src={argFlag}
+                  alt="Argentina's Flag"
+                  className="rounded-full 
+                  size-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+                  width={42}
+                  height={42}
+                />
+              </button>
+            </div>
             <div className="flex-none text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
               <ul className="hidden px-1 menu menu-horizontal lg:flex md:flex">
                 <li>
@@ -61,14 +85,6 @@ export const Header = () => {
                   <a href="#contact">{t("header.nav.contact")}</a>
                 </li>
               </ul>
-
-              <button onClick={() => handleChangeLanguage("en")}>
-                English
-              </button>
-              <button onClick={() => handleChangeLanguage("es")}>
-                Spanish
-              </button>
-
               <details className="dropdown md:hidden dropdown-end">
                 <summary className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-black dark:bg-opacity-10 dark:hover:bg-transparent hover:bg-transparent bg-opacity-65">
                   Menu
