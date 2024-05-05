@@ -11,8 +11,8 @@ export const MajorProjects = [
     image: gamenest_image,
     technologies: ["React", "Node", "PostgreSQL", "Tailwind", "Jest", "Redux"],
     repository: {
-      exist: false,
-      link: "#",
+      exist: true,
+      link: "https://github.com/hugodanielcabral/gamenest",
     },
     live: {
       exist: false,
