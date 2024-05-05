@@ -42,13 +42,21 @@ export const Header = () => {
               <input type="checkbox" onClick={handleChangeTheme} />
 
               <div className="swap-on">
-                <img src={moonIcon} alt="Moon Icon" className="w-9 h-9" />
+                <img
+                  src={moonIcon}
+                  alt="Moon Icon"
+                  className="w-9 h-9 hover:scale-105 transition-transform duration-300 ease-in-out"
+                />
               </div>
               <div className="swap-off">
-                <img src={sunIcon} alt="Sun Icon" />
+                <img
+                  src={sunIcon}
+                  alt="Sun Icon"
+                  className="hover:scale-105 transition-transform duration-300 ease-in-out"
+                />
               </div>
             </label>
-            <div className="space-x-5">
+            <div className="md:ml-36 items-center gap-5 flex-1 flex justify-center">
               <button onClick={() => handleChangeLanguage("en")}>
                 <img
                   src={usaFlag}
@@ -71,7 +79,7 @@ export const Header = () => {
               </button>
             </div>
             <div className="flex-none text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
-              <ul className="hidden px-1 menu menu-horizontal lg:flex md:flex">
+              <ul className="hidden px-1 menu menu-horizontal lg:flex md:flex *:md:text-xl">
                 <li>
                   <a href="#home">{t("header.nav.home")}</a>
                 </li>

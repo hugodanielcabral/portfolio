@@ -110,7 +110,7 @@ export const MainProjects = () => {
                 <h4 className="text-lg text-[#0E1F39] dark:text-[#FFF9F3] font-bold mt-5 text-center">
                   {t(project.title)}
                 </h4>
-                <p className="text-base text-[#0E1F39] dark:text-[#B0B5BC]">
+                <p className="text-base text-[#0E1F39] dark:text-[#B0B5BC] text-balance">
                   {t(project.description)}
                 </p>
                 <ul className="flex items-center justify-center mt-3 gap-x-5">
