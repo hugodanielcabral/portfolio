@@ -1,0 +1,48 @@
+{
+    "header": {
+        "nav": {
+            "home": "INICIO",
+            "projects": "PROYECTOS",
+            "skills": "HABILIDADES",
+            "contact": "CONTACTO"
+        }
+    },
+    "main": {
+        "home": {
+            "title": "Hola!, mi nombre es",
+            "name": "Daniel Cabral.",
+            "description": "Soy Técnico en Programación especializado en el desarrollo Frontend, con un agudo sentido del detalle y un enfoque creativo para resolver problemas complejos. Me destaco en traducir conceptos de diseño en interfaces receptivas y amigables para el usuario. Soy un profesional dedicado y comprometido a mantenerme al tanto de las tecnologías emergentes y las tendencias de la industria. Estoy entusiasmado por contribuir con mi experiencia técnica e innovación a proyectos dinámicos.",
+            "resumeButton": "Currículum",
+            "resumeLink": "/cv_daniel_cabral.pdf",
+            "contactButton": "Contacto"
+        },
+        "projects": {
+            "title": "Proyectos",
+            "description": "Estos son algunos de los proyectos en los que he trabajado recientemente",
+            "project_1": {
+                "title": "GameNest (En desarrollo)",
+                "description": "Actualmente estoy trabajando en un proyecto personal llamado GameNest, es un servicio que ofrecerá una forma de encontrar juegos, guardarlos en una colección, hacer un seguimiento de ellos, leer/crear reseñas de los juegos que has jugado y más"
+            },
+            "project_2": {
+                "title": "DonC Alojamientos",
+                "description": "Diseñé un sitio web donde puedes reservar diferentes tipos de casas, ver su información, e incluso publicar la tuya propia."
+            },
+            "project_3": {
+                "title": "Dog360",
+                "description": "Trabajé en un sitio web donde encontrarás información sobre perros, como raza, tamaño, peso, etc."
+            },
+            "project_4": {
+                "title": "Dawson E-commerce",
+                "description": "Diseñé un sitio web de comercio electrónico donde puedes comprar productos de diferentes categorías. En este proyecto trabajé junto a compañeros usando metodologías ágiles."
+            }
+        },
+        "skills": {
+            "title": "Habilidades"
+        },
+        "contact": {
+            "title": "Contactame",
+            "description": "Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o enviándome un correo electrónico."
+        }
+
+    }
+}

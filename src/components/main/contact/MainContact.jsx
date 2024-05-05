@@ -1,17 +1,19 @@
 import githubIcon from "../../../images/github.svg";
 import linkedinIcon from "../../../images/linkedin.svg";
 import emailIcon from "../../../images/email.svg";
+import { useTranslation } from "react-i18next";
 
 export const MainContact = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <section id="contact" className="grid w-3/4 mb-40">
       <div className="divider divider-secondary"></div>
       <h2 className="text-4xl font-bold text-center text-[#FF31AD] mt-40">
-        Contact me
+        {t("main.contact.title")}
       </h2>
       <p className="text-xl text-center text-[#313234] mt-5 mb-5 dark:text-[#B0B5BC]">
-        If you want to contact me, you can do it through my email or my social
-        networks.
+        {t("main.contact.description")}
       </p>
       <div className="flex justify-center mt-5 gap-x-5">
         <a

@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 import sunIcon from "../../images/sun.svg";
 import moonIcon from "../../images/moon.svg";
+import { useTranslation } from "react-i18next";
 
 export const Header = () => {
+  const [t, i18n] = useTranslation("global");
+
   const [theme, setTheme] = useState(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       return "dark";
@@ -13,6 +16,10 @@ export const Header = () => {
 
   const handleChangeTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
+  };
+
+  const handleChangeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
   };
 
   useEffect(() => {
@@ -42,18 +49,25 @@ export const Header = () => {
             <div className="flex-none text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
               <ul className="hidden px-1 menu menu-horizontal lg:flex md:flex">
                 <li>
-                  <a href="#home">HOME</a>
+                  <a href="#home">{t("header.nav.home")}</a>
                 </li>
                 <li>
-                  <a href="#projects">PROJECTS</a>
+                  <a href="#projects">{t("header.nav.projects")}</a>
                 </li>
                 <li>
-                  <a href="#skills">SKILLS</a>
+                  <a href="#skills">{t("header.nav.skills")}</a>
                 </li>
                 <li>
-                  <a href="#contact">CONTACT</a>
+                  <a href="#contact">{t("header.nav.contact")}</a>
                 </li>
               </ul>
+
+              <button onClick={() => handleChangeLanguage("en")}>
+                English
+              </button>
+              <button onClick={() => handleChangeLanguage("es")}>
+                Spanish
+              </button>
 
               <details className="dropdown md:hidden dropdown-end">
                 <summary className="m-1 bg-gray-300 btn text-[#000] dark:text-[#fff] dark:bg-black dark:bg-opacity-10 dark:hover:bg-transparent hover:bg-transparent bg-opacity-65">

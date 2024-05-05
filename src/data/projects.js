@@ -5,9 +5,8 @@ import gamenest_image from "../images/gamenest_wallpaper.webp";
 export const MajorProjects = [
   {
     id: 1,
-    title: "GameNest (In progress)",
-    description:
-      "I am currently working on a service that will offer a way to find games, save them in a collection, keeping track of them, read/create reviews of the games you've played, and more. You can find the updates in the repository.",
+    title: "main.projects.project_1.title",
+    description: "main.projects.project_1.description",
     image: gamenest_image,
     technologies: ["React", "Node", "PostgreSQL", "Tailwind", "Jest", "Redux"],
     repository: {
@@ -25,9 +24,8 @@ export const MajorProjects = [
   },
   {
     id: 2,
-    title: "DonC Alojamientos",
-    description:
-      "I designed a website where you can book different types of houses and even publish your own.",
+    title: "main.projects.project_2.title",
+    description: "main.projects.project_2.description",
     image: donc_image,
     technologies: ["React", "Node", "PostgreSQL", "Tailwind"],
     repository: {
@@ -41,9 +39,8 @@ export const MajorProjects = [
   },
   {
     id: 3,
-    title: "Dog360",
-    description:
-      "I worked on a website where you will find information about dogs, such as breed, size, weight, etc.",
+    title: "main.projects.project_3.title",
+    description: "main.projects.project_3.description",
     image: dog360_image,
     technologies: ["React", "Node", "MySQL", "Tailwind"],
     repository: {
@@ -60,8 +57,8 @@ export const MajorProjects = [
 export const minorProjects = [
   {
     id: 1,
-    title: "Dawson E-Commerce",
-    description: "I developed an E-Commerce following the SCRUM methodology.",
+    title: "main.projects.project_4.title",
+    description: "main.projects.project_4.description",
     technologies: ["Javascript", "HTML5", "Bootstrap"],
     repository: {
       exist: true,
