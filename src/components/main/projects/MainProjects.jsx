@@ -25,11 +25,11 @@ export const MainProjects = () => {
             <img
               src={project.image}
               alt={`Image of ${project.title}`}
-              className="object-cover mt-5 shadow-xl rounded-xl shadow-black w-[600px]"
+              className="object-cover mt-5 shadow-xl rounded-xl shadow-black min-w-80 h-48 md:w-full md:h-fit hover:scale-95 transition-transform duration-300 ease-in-out"
             />
             <div>
               <h4
-                className={`text-xl text-[#0E1F39] dark:text-[#FFF9F3] font-bold mt-5 ${
+                className={`text-xl md:text-2xl text-[#0E1F39] dark:text-[#FFF9F3] font-bold mt-5 ${
                   project.title.includes("GameNest")
                     ? "text-red-500 dark:text-red-500"
                     : ""
@@ -37,7 +37,7 @@ export const MainProjects = () => {
               >
                 {project.title}
               </h4>
-              <p className="text-xl text-[#0E1F39] dark:text-[#B0B5BC]">
+              <p className="text-xl text-[#0E1F39] dark:text-white">
                 {project.description}
               </p>
               <ul className="flex items-center justify-center mt-3 gap-x-5 lg:justify-start">

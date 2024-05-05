@@ -7,7 +7,7 @@ export const MajorProjects = [
     id: 1,
     title: "GameNest (In progress)",
     description:
-      "I am currently working on a website where you can create collection of games, find information about them and read reviews.",
+      "I am currently working on a service that will offer a way to find games, save them in a collection, keeping track of them, read/create reviews of the games you've played, and more. You can find the updates in the repository.",
     image: gamenest_image,
     technologies: ["React", "Node", "PostgreSQL", "Tailwind", "Jest", "Redux"],
     repository: {
@@ -19,8 +19,8 @@ export const MajorProjects = [
       link: "#",
     },
     updates: {
-      exist: false,
-      link: "#",
+      exist: true,
+      link: "https://github.com/hugodanielcabral/gamenest",
     },
   },
   {
