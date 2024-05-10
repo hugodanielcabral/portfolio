@@ -21,19 +21,19 @@
             "description": "Estos son algunos de los proyectos en los que he trabajado recientemente",
             "project_1": {
                 "title": "GameNest (En desarrollo)",
-                "description": "Actualmente estoy trabajando en un proyecto personal llamado GameNest, es un servicio que ofrecerá una forma de encontrar juegos, guardarlos en una colección, hacer un seguimiento de ellos, leer/crear reseñas de los juegos que has jugado y más"
+                "description": "Actualmente desarrollando un servicio que ofrecerá una forma de encontrar juegos, guardarlos en una colección, hacer un seguimiento de ellos, leer/crear reseñas de los juegos que has jugado y más. En el mismo estoy aplicando buenas prácticas, autenticación de usuario, validación por correo, testing, entre otros."
             },
             "project_2": {
                 "title": "DonC Alojamientos",
-                "description": "Diseñé un sitio web donde puedes reservar diferentes tipos de casas, ver su información, e incluso publicar la tuya propia."
+                "description": "Diseñé un servicio de reserva de casas, hotelería, etc. En el mismo hice uso tecnicas para que el usuario pueda reservar un servicio e incluso poder publicar su propio servico."
             },
             "project_3": {
                 "title": "Dog360",
-                "description": "Trabajé en un sitio web donde encontrarás información sobre perros, como raza, tamaño, peso, etc."
+                "description": "Trabajé en un proyecto en el que se podía observar diferentes razas de perros, ver sus características, entre otros."
             },
             "project_4": {
                 "title": "Dawson E-commerce",
-                "description": "Diseñé un sitio web de comercio electrónico donde puedes comprar productos de diferentes categorías. En este proyecto trabajé junto a compañeros usando metodologías ágiles."
+                "description": "Desarrollé un E-Commerce en equipo utilizando la metodología SCRUM, en el mismo realizamos funcionalidades para poder observar los detalles de los productos, agregarlos a un carrito de compras, entre otros."
             }
         },
         "skills": {

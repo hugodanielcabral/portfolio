@@ -21,19 +21,19 @@
             "description": "Here are some of my projects that i've been working on",
             "project_1": {
                 "title": "GameNest (In progress)",
-                "description": "I am currently working on a service that will offer a way to find games, save them in a collection, keeping track of them, read/create reviews of the games you've played, and more. You can find the updates in the repository."
+                "description": "Currently developing a service that will provide a way to find games, save them to a collection, track them, read/create game reviews you've played, and more. In it, I'm applying best practices, user authentication, email validation, testing, among others."
             },
             "project_2": {
                 "title": "DonC Alojamientos",
-                "description": "I designed a website where you can book different types of houses, view their information, or even publish your own."
+                "description": "I designed a service for booking houses, hotels, etc. In it, I utilized techniques to allow users to book a service and even publish their own service."
             },
             "project_3": {
                 "title": "Dog360",
-                "description": "I worked on a website where you will find information about dogs, such as breed, size, weight, etc."
+                "description": "I worked on a project where users could view different dog breeds, see their characteristics, among other features."
         },
         "project_4": {
             "title": "Dawson E-commerce",
-            "description": "I designed an e-commerce website where you can purchase products from different categories. In this project, I worked alongside colleagues using agile methodologies."
+            "description": "I participated in a team to develop an E-Commerce platform using the SCRUM methodology. We implemented features to view product details, add them to a shopping cart, among other functionalities."
         }
     },
     "skills": {
