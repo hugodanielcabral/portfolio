@@ -7,8 +7,8 @@ export const Main = () => {
   return (
     <main className="flex flex-col items-center justify-center w-4/4">
       <MainHome />
-      <MainProjects />
       <MainSkills />
+      <MainProjects />
       <MainContact />
     </main>
   );

@@ -6,7 +6,7 @@ export const MainHome = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <section id="home" className="justify-center w-3/4 mt-20 md:mt-8 lg:p-20">
+    <section id="home" className="justify-center w-3/4 mt-32">
       <h3 className="text-lg lg:text-2xl text-[#FF31AD]">
         {t("main.home.title")}
       </h3>

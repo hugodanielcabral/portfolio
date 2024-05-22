@@ -5,6 +5,11 @@ import usaFlag from "../../images/usa-flag.webp";
 import argFlag from "../../images/argentina-flag.webp";
 import { useTranslation } from "react-i18next";
 
+const handleScrollTo = (id) => {
+  console.log(id);
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+};
+
 export const Header = () => {
   const [t, i18n] = useTranslation("global");
 
@@ -81,16 +86,24 @@ export const Header = () => {
             <div className="flex-none text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
               <ul className="hidden px-1 menu menu-horizontal lg:flex md:flex *:md:text-xl">
                 <li>
-                  <a href="#home">{t("header.nav.home")}</a>
+                  <button onClick={() => handleScrollTo("home")}>
+                    {t("header.nav.home")}
+                  </button>
                 </li>
                 <li>
-                  <a href="#projects">{t("header.nav.projects")}</a>
+                  <button onClick={() => handleScrollTo("skills")}>
+                    {t("header.nav.skills")}
+                  </button>
                 </li>
                 <li>
-                  <a href="#skills">{t("header.nav.skills")}</a>
+                  <button onClick={() => handleScrollTo("projects")}>
+                    {t("header.nav.projects")}
+                  </button>
                 </li>
                 <li>
-                  <a href="#contact">{t("header.nav.contact")}</a>
+                  <button onClick={() => handleScrollTo("contact")}>
+                    {t("header.nav.contact")}
+                  </button>
                 </li>
               </ul>
               <details className="dropdown md:hidden dropdown-end">
@@ -99,16 +112,24 @@ export const Header = () => {
                 </summary>
                 <ul className="p-2 shadow menu dropdown-content z-[1] rounded-box w-52 dark:bg-slate-800 dark:bg-opacity-85 bg-white bg-opacity-85">
                   <li>
-                    <a href="#home">HOME</a>
+                    <button onClick={() => handleScrollTo("home")}>
+                      {t("header.nav.home")}
+                    </button>
                   </li>
                   <li>
-                    <a href="#projects">PROJECTS</a>
+                    <button onClick={() => handleScrollTo("skills")}>
+                      {t("header.nav.skills")}
+                    </button>
                   </li>
                   <li>
-                    <a href="#skills">SKILLS</a>
+                    <button onClick={() => handleScrollTo("projects")}>
+                      {t("header.nav.projects")}
+                    </button>
                   </li>
                   <li>
-                    <a href="#contact">CONTACT</a>
+                    <button onClick={() => handleScrollTo("contact")}>
+                      {t("header.nav.contact")}
+                    </button>
                   </li>
                 </ul>
               </details>

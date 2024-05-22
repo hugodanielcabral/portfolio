@@ -11,7 +11,7 @@
         "home": {
             "title": "Hello!, my name is",
             "name": "Daniel Cabral.",
-            "description": "I'm a Passionate Frontend Developer with a keen eye for detail and a creative approach to solving complex problems. Proficient in translating design concepts into responsive and user-friendly interfaces. A dedicated professional committed to staying abreast of emerging technologies and industry trends. Excited to contribute technical expertise and innovation to dynamic projects.",
+            "description": "I'm a Passionate Frontend Developer with a keen eye for detail and a creative approach to solving complex problems. Proficient in translating design concepts into responsive and user-friendly interfaces. A dedicated professional committed to staying abreast of emerging technologies and industry trends.",
             "resumeButton": "Resume",
             "resumeLink": "/resume_daniel_cabral.pdf",
             "contactButton": "Contact"

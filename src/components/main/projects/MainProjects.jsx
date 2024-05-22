@@ -12,7 +12,7 @@ export const MainProjects = () => {
   return (
     <section id="projects" className="justify-center w-3/4 mt-20">
       <div className=" divider divider-secondary"></div>
-      <h3 className="text-2xl text-[#0E1F39] dark:text-[#FFF9F3] font-bold">
+      <h3 className="text-2xl text-[#0E1F39] dark:text-[#FFF9F3] font-bold mt-10">
         {t("main.projects.title")}
       </h3>
       <p className="text-xl text-[#313234] mt-5 dark:text-[#B0B5BC]">
