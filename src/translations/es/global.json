@@ -11,21 +11,21 @@
         "home": {
             "title": "Hola!, mi nombre es",
             "name": "Daniel Cabral.",
-            "description": "Técnico en Programación especializado en el desarrollo Frontend, con un agudo sentido del detalle y un enfoque creativo para resolver problemas complejos. Me destaco en traducir conceptos de diseño en interfaces receptivas y amigables para el usuario. Soy un profesional dedicado y comprometido a mantenerme al tanto de las tecnologías emergentes y las tendencias de la industria.",
+            "description": "Técnico en Programación especializado en el desarrollo Frontend, soy creativo para resolver problemas complejos y me destaco en traducir conceptos de diseño en interfaces receptivas y amigables para el usuario. Dedicado y comprometido a mantenerse al tanto de las tecnologías emergentes y las tendencias de la industria.",
             "resumeButton": "Currículum",
-            "resumeLink": "/cv_daniel_cabral.pdf",
+            "resumeLink": "/cv_hugo_daniel_cabral.pdf",
             "contactButton": "Contacto"
         },
         "projects": {
             "title": "Proyectos",
             "description": "Estos son algunos de los proyectos en los que he trabajado recientemente",
             "project_1": {
-                "title": "GameNest (En desarrollo)",
-                "description": "Actualmente desarrollando un servicio que ofrecerá una forma de encontrar juegos, guardarlos en una colección, hacer un seguimiento de ellos, leer/crear reseñas de los juegos que has jugado y más. En el mismo estoy aplicando buenas prácticas, autenticación de usuario, validación por correo, testing, entre otros."
+                "title": "GameNest",
+                "description": "Servicio que ofrece la funcionalidad de poder buscar videojuegos, ver sus detalles, agregarlos a una colección, calificarlos, entre otros."
             },
             "project_2": {
                 "title": "DonC Alojamientos",
-                "description": "Diseñé un servicio de reserva de casas, hotelería, etc. En el mismo hice uso tecnicas para que el usuario pueda reservar un servicio e incluso poder publicar su propio servicio."
+                "description": "Diseñé un servicio de reserva de casas, hostelería, etc. En el mismo hice uso técnicas para que el usuario pueda reservar un servicio e incluso poder publicar su propio servicio."
             },
             "project_3": {
                 "title": "Dog360",

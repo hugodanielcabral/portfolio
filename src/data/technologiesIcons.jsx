@@ -10,6 +10,7 @@ import {
   SiFirebase,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript, SiJsonwebtokens } from "react-icons/si";
 
 const technologiesIcons = [
   {
@@ -71,6 +72,16 @@ const technologiesIcons = [
     id: 11,
     name: "Firebase",
     icon: <SiFirebase size={32} className="text-yellow-500" />,
+  },
+  {
+    id: 12,
+    name: "TypeScript",
+    icon: <SiTypescript size={32} className="text-blue-400" />,
+  },
+  {
+    id: 13,
+    name: "JWT",
+    icon: <SiJsonwebtokens size={32} className="text-green-400" />,
   },
 ];
 

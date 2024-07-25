@@ -11,7 +11,7 @@
         "home": {
             "title": "Hello!, my name is",
             "name": "Daniel Cabral.",
-            "description": "I'm a Passionate Frontend Developer with a keen eye for detail and a creative approach to solving complex problems. Proficient in translating design concepts into responsive and user-friendly interfaces. A dedicated professional committed to staying abreast of emerging technologies and industry trends.",
+            "description": "Programming Technician specialized in Frontend development, I am creative in solving complex problems and excel at translating design concepts into responsive and user-friendly interfaces. Dedicated and committed to staying updated with emerging technologies and industry trends.",
             "resumeButton": "Resume",
             "resumeLink": "/resume_daniel_cabral.pdf",
             "contactButton": "Contact"
@@ -20,8 +20,8 @@
             "title": "Projects",
             "description": "Here are some of my projects that i've been working on",
             "project_1": {
-                "title": "GameNest (In progress)",
-                "description": "Currently developing a service that will provide a way to find games, save them to a collection, track them, read/create game reviews you've played, and more. In it, I'm applying best practices, user authentication, email validation, testing, among others."
+                "title": "GameNest",
+                "description": "Service that offers the functionality to search for video games, view their details, add them to a collection, rate them, and more."
             },
             "project_2": {
                 "title": "DonC Alojamientos",

@@ -8,18 +8,21 @@ export const MajorProjects = [
     title: "main.projects.project_1.title",
     description: "main.projects.project_1.description",
     image: gamenest_image,
-    technologies: ["React", "Node", "PostgreSQL", "Tailwind", "Jest", "Redux"],
+    technologies: [
+      "React",
+      "Node",
+      "PostgreSQL",
+      "Tailwind",
+      "TypeScript",
+      "JWT",
+    ],
     repository: {
       exist: true,
       link: "https://github.com/hugodanielcabral/gamenest",
     },
     live: {
-      exist: false,
-      link: "#",
-    },
-    updates: {
       exist: true,
-      link: "https://github.com/hugodanielcabral/gamenest",
+      link: "https://gamenest.onrender.com/",
     },
   },
   {
@@ -33,7 +36,7 @@ export const MajorProjects = [
       link: "https://github.com/hugodanielcabral/cab_alojamientos",
     },
     live: {
-      exist: true,
+      exist: false,
       link: "https://donc-alojamientos.onrender.com/",
     },
   },

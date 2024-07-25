@@ -7,6 +7,10 @@ import global_en from "./translations/en/global.json";
 import global_es from "./translations/es/global.json";
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
+import { Home } from "./pages/Home";
+import { GameNest } from "./pages/GameNest.jsx";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -21,10 +25,23 @@ i18next.init({
   },
 });
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/projects/gamenest",
+    element: <GameNest />,
+  },
+]);
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-      <App />
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
     </I18nextProvider>
   </React.StrictMode>
 );

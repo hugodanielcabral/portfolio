@@ -10,6 +10,7 @@ import {
   BiLogoBootstrap,
   BiLogoReact,
   BiLogoTrello,
+  BiLogoTypescript,
 } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
@@ -39,20 +40,27 @@ export const skillsFront = [
   },
   {
     id: 4,
+    name: "TypeScript",
+    icon: (
+      <BiLogoTypescript className="text-4xl text-[#007ACC] dark:text-[#007ACC] size-20" />
+    ),
+  },
+  {
+    id: 5,
     name: "React",
     icon: (
       <BiLogoReact className="text-4xl text-[#61DAFB] dark:text-[#61DAFB] size-20" />
     ),
   },
   {
-    id: 5,
+    id: 6,
     name: "TailwindCSS",
     icon: (
       <BiLogoTailwindCss className="text-4xl text-[#06B6D4] dark:text-[#06B6D4] size-20" />
     ),
   },
   {
-    id: 6,
+    id: 7,
     name: "Bootstrap",
     icon: (
       <BiLogoBootstrap className="text-4xl text-[#7952B3] dark:text-[#7952B3] size-20" />
